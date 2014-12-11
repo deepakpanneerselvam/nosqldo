@@ -1,4 +1,0 @@
-nosqldo
-=======
-
-Nosql Data Objects
