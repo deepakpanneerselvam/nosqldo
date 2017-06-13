@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataTemplate tableName="person" dataStore="hbase"
+	operationType="Create" rowKey="">
+	<field name="" property="" value="" coulumFamily="cf" query="false"
+		update="false" />
+	<field name="" property="" value="" coulumFamily="cf" query="false"
+		update="false" />
+	<field name="" property="" value="" coulumFamily="cf" query="false"
+		update="false" />
+
+
+	<field name="" property="" value="" coulumFamily="cf1" query="false"
+		update="false" />
+	<field name="" property="" value="" coulumFamily="cf1" query="false"
+		update="false" />
+	<field name="" property="" value="" coulumFamily="cf1" query="false"
+		update="false" />
+</dataTemplate>

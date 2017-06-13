@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- XML Schema Generated from XML Document on Tue Aug 5 15:25:34 UTC+0530 
+		2014 -->
+	<!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+	<xs:element name="dataTemplate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="field" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute type="xs:string" name="property"></xs:attribute>
+						<xs:attribute type="xs:string" name="value"></xs:attribute>
+						<xs:attribute type="xs:string" name="name"></xs:attribute>
+						<xs:attribute type="xs:string" name="coulumFamily"></xs:attribute>
+						<xs:attribute type="xs:string" name="query"></xs:attribute>
+						<xs:attribute type="xs:string" name="update"></xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute type="xs:string" name="rowKey"></xs:attribute>
+			<xs:attribute type="xs:string" name="operationType"></xs:attribute>
+			<xs:attribute type="xs:string" name="dataStore"></xs:attribute>
+			<xs:attribute type="xs:string" name="tableName"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
